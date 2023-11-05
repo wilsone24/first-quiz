@@ -1,4 +1,4 @@
-from question2 import run_swapper 
+from question2 import run_swapper
 
 def test_run_swapper():
   assert run_swapper(
