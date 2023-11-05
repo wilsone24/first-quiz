@@ -19,11 +19,9 @@
 # vegetarian integer
 
 sql_create_favorite_foods = """
-CREATE TABLE favorite_foods (
-  food_id integer,
-  name text,
-  vegetarian integer
-);
+
+Your SQL here.
+
 """
 
 # Part 5.B:
@@ -31,10 +29,9 @@ CREATE TABLE favorite_foods (
 # The test suite will verify the new changes by inserting some new rows. 
 
 sql_alter_tables_with_favorite_food = """
-ALTER TABLE animals
-ADD favorite_food_id integer;
-ALTER TABLE people
-ADD favorite_food_id integer;
+
+Your SQL here.
+
 """
 
 # Part 5.C:
@@ -42,8 +39,7 @@ ADD favorite_food_id integer;
 # THe output should be a list of tuples in the format: (<pet name>, <food name>)
 
 sql_select_all_vegetarian_pets = """
-SELECT a.name, ff.name
-FROM animals a
-INNER JOIN favorite_foods ff ON a.favorite_food_id = ff.food_id
-WHERE ff.vegetarian = 1;
+
+Your SQL here.
+
 """
